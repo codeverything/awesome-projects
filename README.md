@@ -11,6 +11,7 @@
 <div align="center">
 <img src="/images/hacktober.png">
 </div>
+
 ### About:
  Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. Hacktoberfest is open to everyone in our global community!
  [Official Website](https://hacktoberfest.com)
@@ -27,8 +28,9 @@
 * Don't make SPAM PRs to get rejected immediately.
 
 ## What your Project contains ?
-* It may be automation script or small GUI Project or making your own little library, etc., 
+* It may be automation script or small GUI Project, web projects, etc., 
 * Your project can be in any language( Python, C, C++, etc.,)
+
 
 ## Steps to Contribute ?
 
@@ -38,5 +40,5 @@
 - [x] Sync latest branch with your forked repository before changing things
 - [x] Create a folder with appropriate name relevant to the project
 - [x] Add your code in appropriate folder along with setup instructions and usage if requried
-- [x] Before commiting try to make it in format with [Prettier](https://prettier.io/)
+- [x] Before commiting make it in formatted with [Prettier](https://prettier.io/) 
 - [x] 🎉Congrats!!, You've made your contribution.
