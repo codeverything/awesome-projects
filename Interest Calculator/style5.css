@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    color: navy;
+    font-family: "Odibee Sans", cursive;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.name-container {
+    text-align: center;
+}
+
+body {
+    background-color: #26313c;
+    background-size: cover;
+}
+
+/* header
+{
+   
+    background-color:#1E40AF;
+    width: 100%;
+    padding:1rem;
+    border-bottom-left-radius: 1.4rem;
+   
+} */
+
+/* .header h1
+{
+   
+    color:white;
+    font-size: 2rem;;
+    
+} */
+
+.one {
+    padding: 1rem;
+}
+
+.one .image {
+    max-width: 480px;
+    display: block;
+    margin: auto;
+    border-radius: 10%;
+    padding: 0.5rem;
+}
+
+.one h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+
+.two {
+    background-color: #26313c;
+    padding: 1rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#btnn {
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#info {
+    text-align: center;
+}
+
+footer {
+    padding-top: 1rem;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+footer ul {
+    list-style: none;
+    font-size: large;
+}
+
+footer ul li {
+    display: inline;
+    padding-right: 0.5rem;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#loading, #results {
+    display: none;
+    font-size: large;
+}
+
+#info {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}

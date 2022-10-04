@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIRUDH'S Interest Computation Tool</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="name-container">
+        <h3><span class="name" style="background-color: grey;">&copy ANIRUDH</span></h3>
+    </div>
+    
+    <section class="one">
+        <img class="image" src="https://images.livemint.com/img/2020/07/03/original/loan_1593743157471.png" alt="Some of the leading bank's interest rates">
+        <h2><strong>Calculate your loan's net interest with this User Friendly Interface</strong></h2>
+
+    </section>
+
+    <section class="two">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card card-body text-center mt-5" >
+                    <h1 class="heading display-5 pb-3">Loan Calculator</h1>
+                      <form id="loan-form">
+                          <div class="form-group">
+                              <div class="input-group">
+                                  <span class="input-group-addon">$</span>
+                                  <input type="number" class="form-control" id="amount" placeholder="Loan Amount">
+                              </div>
+                          </div>
+
+
+                          <div class="form-group">
+                              <div class="input-group">
+                                  <span class="input-group-addon">%</span>
+                                  <input type="number" class="form-control" id="interest" placeholder="Interest">
+                              </div>
+                          </div>
+
+
+                          <div class="form-group">
+                              <div class="input-group">
+                                  <input type="number" class="form-control" id="years" placeholder="Years to Repay">
+                              </div>
+
+                          </div>
+
+
+                          <div class="form-group">
+                              <input type="submit" value="Calculate" class="btn btn-dark btn-block" id="btnn">
+                          </div>
+
+
+                      </form>
+
+
+                      <div id="loading">
+                          <img src="img/loading.gif" alt="">
+                      </div>
+
+                      <div id="results" class="pt-4">
+                          <h5>Results</h5>
+                      <div class="form-group">
+                          <div class="input-group">
+                              <span class="input-group-addon">Monthly Payment</span>
+                              <input type="number" class="form-control" id="monthly-payment" placeholder="Monthly Payment" disabled>
+                          </div>
+                      </div>
+
+
+                      <div class="form-group">
+                          <div class="input-group">
+                              <span class="input-group-addon">Total Payment</span>
+                              <input type="number" class="form-control" id="total-payment" placeholder="Total Payment" disabled>
+                          </div>
+                      </div>
+
+                      <div class="form-group">
+                          <div class="input-group">
+                              <span class="input-group-addon">Total Interest Payment</span>
+                              <input type="number" class="form-control" id="total-interest" placeholder="Total Interest" disabled>
+                          </div>
+                      </div>
+                  </div>
+                
+        
+        </div>
+    </div>
+    </section>
+
+
+        <footer>
+            <ul>
+                
+                <li><a style="color: green;" href="https://github.com/anirudh0806" target="_blank">Github</a></li>
+                <li><a style="color:#2867B2;"href="https://www.linkedin.com/in/anirudh-pavan-a34726186/" target="_blank">Linkedin</a></li>
+    
+            </ul>
+        </footer>
+
+          <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+
+   </body>
+   </html>
