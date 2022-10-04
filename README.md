@@ -22,7 +22,7 @@
 <img src="/images/syntax.PNG">
 
 * Project name should start in lowercase
-* Don't SPAM to get rejected immediately.
+* Don't make SPAM PRs to get rejected immediately.
 
 ## What your Project contains ?
 * It may be automation script or small GUI Project or making your own little library, etc., 
@@ -38,3 +38,9 @@
 - [x] Add your code in appropriate folder along with setup instructions and usage if requried
 - [x] Before commiting try to make it in format with [Prettier](https://prettier.io/)
 - [x] 🎉Congrats!!, You've made your contribution.
+
+<h1 align="center">Awesome Contributors 🎊</h1>
+
+<a href="https://github.com/codeverything/awesome-projects/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=codeverything/awesome-projects" />
+</a>
