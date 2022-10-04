@@ -8,7 +8,9 @@
 </p>
 
 ## Hacktoberfest 2022 🎃?
-
+<div align="center">
+<img src="/images/hacktober.png">
+</div>
 ### About:
  Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. Hacktoberfest is open to everyone in our global community!
  [Official Website](https://hacktoberfest.com)
@@ -38,9 +40,3 @@
 - [x] Add your code in appropriate folder along with setup instructions and usage if requried
 - [x] Before commiting try to make it in format with [Prettier](https://prettier.io/)
 - [x] 🎉Congrats!!, You've made your contribution.
-
-<h1 align="center">Awesome Contributors 🎊</h1>
-
-<a href="https://github.com/codeverything/awesome-projects/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=codeverything/awesome-projects" />
-</a>
