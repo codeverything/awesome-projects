@@ -20,6 +20,7 @@
 * Don't copy the code from other resources or exists already
 * Try to add a documentation comment in starting of the program 👇
 <img src="/images/syntax.PNG">
+
 * Project name should start in lowercase
 * Don't SPAM to get rejected immediately.
 
