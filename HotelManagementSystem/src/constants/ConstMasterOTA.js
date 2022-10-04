@@ -1,0 +1,13 @@
+module.exports = {
+  TRAVELOKA: '1d0ca3bb-3a1a-4691-bac6-6deb0dc84a66',
+  AGODA: 'b92eb767-c1fe-48f2-a391-9925ffb5de96',
+  PEGIPEGI: 'e3128c8c-fd76-4eb5-bc76-b5df61c743de',
+  AIRY: '12c1f3a6-2765-4534-94a7-a7306f28798d',
+  BOOKINGCOM: 'ddb9fa4e-c6a6-4de3-ab5d-9bf61b559661',
+  MISTERALADIN: '0883180e-2c2e-4dcc-a123-4792ef83ac24',
+  EXPEDIA: '0ab523c8-10c5-408e-9924-1319d0b08e5a',
+  MGHOLIDAY: 'f86ab368-b8c8-4750-8353-14f5a99f6092',
+  KAHA: 'd9d99c4c-8058-4ee3-a0ce-aca006cb6459',
+  BAYUBUANA: 'd377bd4f-eafa-4251-a900-68fcf7a47919',
+  BLIBLI: '00ab41e2-af24-49f1-a494-8ce4c6745c86',
+}

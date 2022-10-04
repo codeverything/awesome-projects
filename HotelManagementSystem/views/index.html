@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba HTML</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<style>
+    .box {
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      overflow: hidden;
+      font-size: 12px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .box-out {
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      overflow: hidden;
+      font-size: 14px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+</style>
+<body>
+    <div class="box-out">
+        <table style="width: 60%; font-size: 16px;">
+            <tr>
+                <th>Invoice <span style="color: #979494;">{{nomorInvoice}}</span><span class="btn btn-secondary btn-sm" style="{{conditionColorBlock}}"><span style="{{conditionColorText}}">{{MasterStatusPembayaran.dataValues.nama}}</span></span></th>
+                <th style="text-align: right;">Balance <span style="{{conditionColorBalance}}">{{balance}}</span></th>
+            </tr>
+        </table>
+        <div style="border-bottom: 1px solid #CACACA; margin-top: 5px;"></div>
+        <table style="width: 60%; margin-top: 5px;">
+            <tr>
+                <th style="font-weight: normal;">Billed To</th>
+                <th colspan="100%" style="text-align: right; font-weight: normal;">Date</th>
+            </tr>
+            <tr>
+                <td><b style="font-size: 18px;">{{namaPemesan}}</b></td>
+                <td style="text-align: right;"><b>{{tanggalReservasi}}</b></td>
+            </tr>
+        </table>
+        <table style=" width: 60%;">
+            <tr>
+                <th style="font-weight: normal;">Source</th>
+                <th style="font-weight: normal;" colspan="3">Nomor Kamar</th>
+            </tr>
+            <tr>
+                <td><b>{{MasterSourcePemesanan.dataValues.nama}}</b></td>
+                <td><b>{{listKamar}}</b></td>
+            </tr>
+        </table>
+    </div>
+    <div class="box" style="margin-top: -40px;">
+        <br />
+        <span class="fa fa-circle" style="color: #CACACA;"></span><span style="font-size: 18px;"> TAGIHAN</span>
+        <table style="width: 60%;">
+            <tr style="border-top: 1px solid #CACACA; border-bottom: 1px solid #CACACA;">
+                <th style="text-align: center;">Tanggal</th>
+                <th style="text-align: center;max-width: 100%;">Item</th>
+                <th style="text-align: center;">Amount</th>
+                <th style="text-align: center;">Jumlah</th>
+                <th style="text-align: center;">Satuan</th>
+                <th style="text-align: center;">Total</th>
+            </tr>
+            {{#each InvoiceTagihan}}
+            <tr style="border-bottom: 1px solid #CACACA;;">
+                <td>
+                    <div style="text-align: center;">
+                        {{tanggal}}
+                    </div>
+                </td>
+                <td>
+                    <div style="text-align: center;">
+                        {{item}}
+                    </div>
+                </td>
+                <td>
+                    <div style="text-align: center;">
+                        {{amount}}
+                    </div>
+                </td>
+                <td>
+                    <div style="text-align: center;">
+                        {{jumlah}}
+                    </div>
+                </td>
+                <td>
+                    <div style="text-align: center;">
+                        {{satuan}}
+                    </div>
+                </td>
+                <td>
+                    <div style="text-align: center;">
+                        {{totalHarga}}
+                    </div>
+                </td>
+            </tr>
+            {{/each}}
+        </table>
+        <table style="width: 60%;">
+            <tr>
+                <th style="text-align: right; font-weight: normal;" colspan="100%"><span style="margin-left: 100px;">Promo (Rp)</span></th>
+                <th style="text-align: right; font-weight: normal;" colspan="100%"><span>{{totalPromo}}</span></th>
+            </tr>
+            <tr>
+                <td style="text-align: right; " colspan="100%"><span style="margin-left: 100px;">Total Tagihan (Rp)</span></td>
+                <td style="text-align: right; " colspan="100%"><span>{{totalTagihan}}</span></td>
+            </tr>
+        </table>
+        <br />
+        <span class="fa fa-circle" style="color: #CACACA;"></span> <span style="font-size: 18px;"> ADDITIONAL</span>
+        <table style="width: 60%;">
+                <tr style="border-top: 1px solid #CACACA; border-bottom: 1px solid #CACACA;">
+                    <th style="text-align: center;">Tanggal</th>
+                    <th style="text-align: center;">Item</th>
+                    <th style="text-align: center;">Keterangan</th>
+                    <th style="text-align: center;">Amount</th>
+                    <th style="text-align: center;">Jumlah</th>
+                    <th style="text-align: center;">Satuan</th>
+                    <th style="text-align: center;">Promo</th>
+                    <th style="text-align: center;">Total</th>
+                </tr>
+            {{#each InvoiceTambahan}}
+                <tr style="border-bottom: 1px solid #CACACA;">
+                    <td>
+                        <div style="text-align: center;" >
+                            {{tanggal}}
+                        </div>
+                    </td>
+                    <td>
+                        <div style="text-align: center;">
+                            {{item}}
+                        </div>
+                    </td>
+                    <td>
+                        <div style="text-align: center;">
+                            {{keterangan}}
+                        </div>
+                    </td>
+                    <td>
+                        <div style="text-align: center;">
+                            {{amount}}
+                        </div>
+                    </td>
+                    <td>
+                        <div style="text-align: center;">
+                            {{jumlah}}
+                        </div>
+                    </td>
+                    <td>
+                        <div style="text-align: center;">
+                            {{satuan}}
+                        </div>
+                    </td>
+                    <td>
+                        <div style="text-align: center;">
+                            {{promo}}
+                        </div>
+                    </td>
+                    <td>
+                        <div style="text-align: center;">
+                            {{totalHarga}}
+                        </div>
+                    </td>
+                </tr>
+            {{/each}}
+        </table>
+        <table style=" width: 60%;">
+            <tr>
+                <th style="text-align: right; font-weight: normal;" colspan="100%"><span style="margin-left: 100px;">Total Additional (Rp)</span></th>
+                <th style="text-align: right; font-weight: normal;" colspan="100%"><span>{{totalTambahan}}</span></th>
+            </tr>
+            <tr>
+                <td style="text-align: right; color: #E24949;" colspan="100%"><span style="margin-left: 100px;">Total (Rp)</span></td>
+                <td style="text-align: right; color: #E24949;" colspan="100%"><span>{{total}}</span></td>
+            </tr>
+        </table>
+        <br />
+        <span class="fa fa-circle" style="color: #CACACA;"></span> <span style="font-size: 18px;"> PEMBAYARAN</span>
+        <table style="width: 60%;">
+            <tr style="border-top: 1px solid #CACACA; border-bottom: 1px solid #CACACA;">
+                <th style="text-align: center;">Tanggal</th>
+                <th style="text-align: center;">Item</th>
+                <th style="text-align: center;">Tipe Pembayaran</th>
+                <th style="text-align: center;">Keterangan</th>
+                <th style="text-align: center; ">Total</th>
+            </tr>
+            {{#each InvoicePembayaran}}
+            <tr style="border-bottom: 1px solid #CACACA;">
+                    <td>
+                        <div style="text-align: center;">
+                            {{dataValues.updatedAt}}
+                        </div>
+                    </td>
+                    <td>
+                        <div style="text-align: center;">
+                            {{dataValues.MasterItemPembayaran.dataValues.nama}}
+                        </div>
+                    </td>
+                    <td>
+                        <div style="text-align: center;">
+                            {{dataValues.MasterTipePembayaran.dataValues.nama}}
+                        </div>
+                    </td>
+                    <td>
+                        <div style="text-align: center;">
+                            {{dataValues.keterangan}}
+                        </div>
+                    </td>
+                    <td>
+                        <div style="text-align: center;">
+                            {{dataValues.nilai}}
+                        </div>
+                    </td>
+            </tr>
+            {{/each}}
+        </table>
+        <table style=" width: 60%;">
+            <tr>
+                <th style="text-align: right; font-weight: normal; color: #01AE6E;" colspan="100%"><span style="margin-left: 100px;">Total Pembayaran (Rp) </span></th>
+                <th style="text-align: right; font-weight: normal; color: #01AE6E;" colspan="100%">{{totalPembayaran}}</th>
+            </tr>
+        </table>
+        <br>
+        <span class="fa fa-circle" style="color: #CACACA;"></span> <span style="font-size: 18px;"> REFUND</span>
+        <table style="width: 60%;">
+            <tr style="border-top: 1px solid #CACACA; border-bottom: 1px solid #CACACA;">
+                <th style="text-align: center;">Tanggal</th>
+                <th style="text-align: center;">Item</th>
+                <th style="text-align: center;">Tipe Pembayaran</th>
+                <th style="text-align: center;">Keterangan</th>
+                <th style="text-align: center;">Total</th>
+            </tr>
+            {{#each InvoiceRefund}}
+            <tr style="border-bottom: 1px solid #CACACA;">
+                <td>
+                    <div style="text-align: center;">
+                        {{dataValues.updatedAt}}
+                    </div>
+                </td>
+                <td>
+                    <div style="text-align: center;">
+                        {{dataValues.MasterItemPembayaran.dataValues.nama}}
+                    </div>
+                </td>
+                <td>
+                    <div style="text-align: center;">
+                        {{dataValues.MasterTipePembayaran.dataValues.nama}}
+                    </div>
+                </td>
+                <td>
+                    <div style="text-align: center;">
+                        {{dataValues.keterangan}}
+                    </div>
+                </td>
+                <td>
+                    <div style="text-align: center;">
+                        {{dataValues.nilai}}
+                    </div>
+                </td>
+            </tr>
+            {{/each}}
+        </table>
+        <table style="width: 60%;">
+            <tr>
+                    <th style="text-align: right; font-weight: normal;" colspan="100%"><span style="margin-left: 150px;">Total Refund (Rp) </span></span></th>
+                    <th style="text-align: right; font-weight: normal;" colspan="100%"><span style="color: #E24949;">{{totalRefund}}</span></th>
+            </tr>
+            <tr>
+                <th style="text-align: end; font-weight: normal;" colspan="100%"><span>Balance </span></th>
+                <th style="text-align: right; font-weight: normal;" colspan="100%"><span style="{{conditionColorBalance}}">{{balance}}</span></th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
