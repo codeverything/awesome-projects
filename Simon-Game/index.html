@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/9bb8901042.js" crossorigin="anonymous"></script
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="game.js"></script>
+<footer id="footer">
+   <a href="https://github.com/pandeyom331"><i class="git fab fa-github fa-1x"></i></a>
+   <a href="https://www.facebook.com/profile.php?id=100004398076666"><i class="git fab fa-facebook-f"></i></a>
+   <a href="https://www.instagram.com/solo_thinker_134/"><i class="git fab fa-instagram "></i></a>
+   <a class="email" href="mailto:pandeyom305@gmail.com"><i class="git fas fa-envelope"></i></a>
+   <p>Copyright &#169; <span id="year"></span> Simon</p>
+ </footer>
+
+ <script>
+   var year = new Date();
+   var newYear = year.getFullYear();
+   document.getElementById("year").innerHTML = newYear;
+</script>
+</body>
+
+</html>
