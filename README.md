@@ -14,8 +14,8 @@
  [Official Website](https://hacktoberfest.com)
 
 ### Rules:
-* Make a Issue before making a pull requests
-* If the issue get assigned then proceed to make a pull request.
+* Make a Issue before making a pull request
+* If the issue get assigned then proceed to make a PRs.
 * The Program doesn't contain any error and should be executable
 * Don't copy the code from other resources or exists already
 * Try to add a documentation comment in starting of the program 👇
@@ -26,7 +26,7 @@
 
 ## What your Project contains ?
 * It may be automation script or small GUI Project or making your own little library, etc., 
-* Your project can be in any language( Python, C, C++, soon)
+* Your project can be in any language( Python, C, C++, etc.,)
 
 ## Steps to Contribute ?
 
@@ -36,4 +36,4 @@
 - [x] Sync latest branch with your forked repository before changing things
 - [x] Add your code in appropriate folder along with setup instructions and usage if requried
 - [x] Before commiting try to make it in format with [Prettier](https://prettier.io/)
-- [x] Congrats, You made your first commit.
+- [x] 🎉Congrats!!, You've made your contribution.
