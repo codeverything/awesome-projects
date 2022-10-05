@@ -1,0 +1,6 @@
+module.exports = {
+  LUNAS: '65d836e0-8177-4bd7-ba69-239c94401b31',
+  BELUM_LUNAS: '15f1c3cb-ec8c-4a71-9c47-b2c98d8b7695',
+  VOID: 'd37ca1cf-8316-462f-b8f6-e883655fabf6',
+  REFUND: '544326f5-2396-4f25-b398-a46035c0f978',
+}

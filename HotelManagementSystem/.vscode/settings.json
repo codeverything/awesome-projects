@@ -1,0 +1,10 @@
+{
+  // "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "conventionalCommits.scopes": [
+    "create reservasi perorangan dan reservasi corporate"
+  ]
+}

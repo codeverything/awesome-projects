@@ -1,0 +1,5 @@
+module.exports = {
+  UPDATE_STOCK: '5515adea-453b-4f8d-846a-197259418868',
+  LAUNDRY: '5091c437-791f-48a8-9a65-1aad68888d36',
+  BERSIH_KAMAR: 'a7e693ac-52ba-442e-af97-3f4d41c539fa',
+}

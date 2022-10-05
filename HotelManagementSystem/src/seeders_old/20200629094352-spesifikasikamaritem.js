@@ -1,0 +1,211 @@
+const SequeliceSeed = require('helpers/SequeliceSeed')
+
+const tableName = 'SpesifikasiKamarItems'
+const data = [
+  {
+    id: '019980d1-8830-4049-8b77-00118140ea30',
+    ItemKamarId: '91997fb5-1d6c-406c-bc80-47174aff6b03',
+    SpesifikasiKamarId: '6da592d6-4de8-43a5-a45a-49039612857d',
+    jumlah: 1,
+  },
+  {
+    id: '197d1358-9ee8-455d-8db7-c1207f83eb16',
+    ItemKamarId: 'a2fa7326-4730-4afd-ae2a-1844da45d394',
+    SpesifikasiKamarId: '6da592d6-4de8-43a5-a45a-49039612857d',
+    jumlah: 1,
+  },
+  {
+    id: '265eedef-af9c-405d-a94e-e51fbc3da96e',
+    ItemKamarId: '91997fb5-1d6c-406c-bc80-47174aff6b03',
+    SpesifikasiKamarId: '6da592d6-4de8-43a5-a45a-49039612857d',
+    jumlah: 1,
+  },
+  {
+    id: '3bf16b25-bc35-46e0-bd9e-f4d23be8aa40',
+    ItemKamarId: '905119c2-5f52-49ee-b171-be74195cd1b8',
+    SpesifikasiKamarId: '6da592d6-4de8-43a5-a45a-49039612857d',
+    jumlah: 1,
+  },
+  {
+    id: '3cc90f4f-7653-4a98-96a6-e640660b32f8',
+    ItemKamarId: '6f93ce70-418e-483a-8e9d-7a9746395350',
+    SpesifikasiKamarId: '6da592d6-4de8-43a5-a45a-49039612857d',
+    jumlah: 1,
+  },
+  {
+    id: '40a6b580-127c-429c-ae15-cc3c2b078842',
+    ItemKamarId: '36a10de6-49da-403d-8e32-23f631291eaa',
+    SpesifikasiKamarId: '19364eed-dc07-4e67-a570-c824e0b56f62',
+    jumlah: 1,
+  },
+  {
+    id: '41ed6aa5-4085-405f-af2b-fda3d48165f2',
+    ItemKamarId: 'c8ee1d0b-d4d9-4bcc-877b-f955a920c530',
+    SpesifikasiKamarId: '2794f2f1-247c-46d6-accc-c9515d5e1449',
+    jumlah: 1,
+  },
+  {
+    id: '4235600c-c903-4033-9d23-7d8770b6a29f',
+    ItemKamarId: 'a1f785f8-89d5-4cf4-9d01-c0b051f80f39',
+    SpesifikasiKamarId: '19364eed-dc07-4e67-a570-c824e0b56f62',
+    jumlah: 1,
+  },
+  {
+    id: '42b01f28-a0b7-47d6-af4d-1c69aef81830',
+    ItemKamarId: 'ec40dab7-a305-44c2-8920-d4965ff44525',
+    SpesifikasiKamarId: 'aa6ca790-b7aa-45ad-8a0b-124f4d7793d8',
+    jumlah: 1,
+  },
+  {
+    id: '62dfbea3-3d6d-4890-916d-19f1feeeb548',
+    ItemKamarId: '36a10de6-49da-403d-8e32-23f631291eaa',
+    SpesifikasiKamarId: 'aa6ca790-b7aa-45ad-8a0b-124f4d7793d8',
+    jumlah: 1,
+  },
+  {
+    id: '6a192a5a-41e1-4349-8efe-48519099f648',
+    ItemKamarId: 'ac67b3a7-2707-4d0e-9e0f-fa8ed2e4cee8',
+    SpesifikasiKamarId: '2794f2f1-247c-46d6-accc-c9515d5e1449',
+    jumlah: 1,
+  },
+  {
+    id: '6fda4f8b-3b46-41b0-9271-276133fd7cab',
+    ItemKamarId: 'a1f785f8-89d5-4cf4-9d01-c0b051f80f39',
+    SpesifikasiKamarId: '2794f2f1-247c-46d6-accc-c9515d5e1449',
+    jumlah: 1,
+  },
+  {
+    id: '717b43b1-4293-4ffe-84b0-222d198e9d0e',
+    ItemKamarId: '175a7d0b-fe45-4304-b31b-a8d68a142ee4',
+    SpesifikasiKamarId: '2794f2f1-247c-46d6-accc-c9515d5e1449',
+    jumlah: 1,
+  },
+  {
+    id: '73003b32-ebf8-47ac-b434-7e20c949044d',
+    ItemKamarId: 'c8ee1d0b-d4d9-4bcc-877b-f955a920c530',
+    SpesifikasiKamarId: '19364eed-dc07-4e67-a570-c824e0b56f62',
+    jumlah: 1,
+  },
+  {
+    id: '73ed40ec-e2d8-4b4c-88e1-55e1b147cd6a',
+    ItemKamarId: '91997fb5-1d6c-406c-bc80-47174aff6b03',
+    SpesifikasiKamarId: '72e23ced-9e4f-48e3-bb07-6ca64c669e03',
+    jumlah: 1,
+  },
+  {
+    id: '7ad68f9b-a411-45ca-a7e2-065405cecfbc',
+    ItemKamarId: '175a7d0b-fe45-4304-b31b-a8d68a142ee4',
+    SpesifikasiKamarId: '19364eed-dc07-4e67-a570-c824e0b56f62',
+    jumlah: 1,
+  },
+  {
+    id: '7c466087-40b9-4039-b9be-7299eced836c',
+    ItemKamarId: '175a7d0b-fe45-4304-b31b-a8d68a142ee4',
+    SpesifikasiKamarId: '72e23ced-9e4f-48e3-bb07-6ca64c669e03',
+    jumlah: 1,
+  },
+  {
+    id: '8203cfb3-7058-4c9b-842d-b2a6f3ef85d0',
+    ItemKamarId: 'ec40dab7-a305-44c2-8920-d4965ff44525',
+    SpesifikasiKamarId: '19364eed-dc07-4e67-a570-c824e0b56f62',
+    jumlah: 1,
+  },
+  {
+    id: '8c9574e7-436e-4ede-8c13-1306e8ad5633',
+    ItemKamarId: 'a1f785f8-89d5-4cf4-9d01-c0b051f80f39',
+    SpesifikasiKamarId: 'aa6ca790-b7aa-45ad-8a0b-124f4d7793d8',
+    jumlah: 1,
+  },
+  {
+    id: '963d2431-98da-4b96-9bf1-da087c354169',
+    ItemKamarId: 'ac67b3a7-2707-4d0e-9e0f-fa8ed2e4cee8',
+    SpesifikasiKamarId: 'aa6ca790-b7aa-45ad-8a0b-124f4d7793d8',
+    jumlah: 1,
+  },
+  {
+    id: '96593798-068a-43e3-a5f2-b0ca1376bbe8',
+    ItemKamarId: '067007b5-a19b-473f-928b-4557c301ee0f',
+    SpesifikasiKamarId: '19364eed-dc07-4e67-a570-c824e0b56f62',
+    jumlah: 1,
+  },
+  {
+    id: 'a4eb7f2a-5d29-4a4f-b367-a5fa2893fb37',
+    ItemKamarId: '6c8c08d5-2e99-42e5-92bc-af7189382904',
+    SpesifikasiKamarId: '19364eed-dc07-4e67-a570-c824e0b56f62',
+    jumlah: 1,
+  },
+  {
+    id: 'a682a3a2-7d6b-4e58-be39-564874880f20',
+    ItemKamarId: '0dd2b107-a4f1-402b-b0cc-e093d9fb50e2',
+    SpesifikasiKamarId: 'aa6ca790-b7aa-45ad-8a0b-124f4d7793d8',
+    jumlah: 1,
+  },
+  {
+    id: 'b578b1af-4fa9-436c-a8b0-0c319e9bc2d9',
+    ItemKamarId: '175a7d0b-fe45-4304-b31b-a8d68a142ee4',
+    SpesifikasiKamarId: 'aa6ca790-b7aa-45ad-8a0b-124f4d7793d8',
+    jumlah: 1,
+  },
+  {
+    id: 'ba67a660-88ca-4797-a233-6d0c08619319',
+    ItemKamarId: '19fe72d5-dc6d-426e-af0f-08f7714bf18c',
+    SpesifikasiKamarId: '19364eed-dc07-4e67-a570-c824e0b56f62',
+    jumlah: 1,
+  },
+  {
+    id: 'bd37a43f-86e0-4ab4-8f95-644868a9d0e9',
+    ItemKamarId: '067007b5-a19b-473f-928b-4557c301ee0f',
+    SpesifikasiKamarId: '72e23ced-9e4f-48e3-bb07-6ca64c669e03',
+    jumlah: 1,
+  },
+  {
+    id: 'c3c45e0f-0de1-44e3-9b2b-adfaf088d4a3',
+    ItemKamarId: 'b69baa87-2f63-48bf-89e2-c142788907c6',
+    SpesifikasiKamarId: '2794f2f1-247c-46d6-accc-c9515d5e1449',
+    jumlah: 1,
+  },
+  {
+    id: 'cab9d107-f5de-4642-9c61-226817abe3cb',
+    ItemKamarId: '0dd2b107-a4f1-402b-b0cc-e093d9fb50e2',
+    SpesifikasiKamarId: '19364eed-dc07-4e67-a570-c824e0b56f62',
+    jumlah: 1,
+  },
+  {
+    id: 'd24bfad2-e9a4-4bff-aed4-a8982e4a5f01',
+    ItemKamarId: '067007b5-a19b-473f-928b-4557c301ee0f',
+    SpesifikasiKamarId: 'aa6ca790-b7aa-45ad-8a0b-124f4d7793d8',
+    jumlah: 1,
+  },
+  {
+    id: 'deb92e10-dc98-466e-aa8d-23fd4e656f10',
+    ItemKamarId: 'c8ee1d0b-d4d9-4bcc-877b-f955a920c530',
+    SpesifikasiKamarId: 'aa6ca790-b7aa-45ad-8a0b-124f4d7793d8',
+    jumlah: 1,
+  },
+  {
+    id: 'e134529f-0a24-4641-8c05-9170d158b8e6',
+    ItemKamarId: 'ac67b3a7-2707-4d0e-9e0f-fa8ed2e4cee8',
+    SpesifikasiKamarId: '19364eed-dc07-4e67-a570-c824e0b56f62',
+    jumlah: 1,
+  },
+  {
+    id: 'e9e9b08b-ba66-48aa-bfd3-fa436d568e12',
+    ItemKamarId: 'ec40dab7-a305-44c2-8920-d4965ff44525',
+    SpesifikasiKamarId: '2794f2f1-247c-46d6-accc-c9515d5e1449',
+    jumlah: 1,
+  },
+  {
+    id: 'eb6c40c2-6df3-4fc7-8e98-0865acadcda1',
+    ItemKamarId: '067007b5-a19b-473f-928b-4557c301ee0f',
+    SpesifikasiKamarId: '2794f2f1-247c-46d6-accc-c9515d5e1449',
+    jumlah: 1,
+  },
+  {
+    id: 'f769abb6-0692-46f6-a0c9-81bd950e4a26',
+    ItemKamarId: '91997fb5-1d6c-406c-bc80-47174aff6b03',
+    SpesifikasiKamarId: '19364eed-dc07-4e67-a570-c824e0b56f62',
+    jumlah: 1,
+  },
+]
+
+module.exports = SequeliceSeed.createSeedData(tableName, data)

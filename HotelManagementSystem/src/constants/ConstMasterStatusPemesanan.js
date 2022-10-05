@@ -1,0 +1,7 @@
+module.exports = {
+  RESERVED: '0d35f17b-dac3-470f-88b9-09a40f462f78',
+  CHECKED_IN: '3053d872-4d2d-4dde-a355-72bb18511a15',
+  CHECKED_OUT: 'ef4b4972-6a68-4ddd-8ac8-a0fedbb786ee',
+  CANCELED: 'f248965c-e91d-413a-abe0-216da8352599',
+  EXTENDED: '53d70573-9bd1-43e4-b0b3-5b8e48a54881',
+}
