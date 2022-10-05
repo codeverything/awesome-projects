@@ -1,0 +1,5 @@
+Requirements for Fun App in Java:
+- minSdk 21
+- implementation 'androidx.core:core-ktx:1.7.0'
+- Kotlin
+- id 'org.jetbrains.kotlin.android' version '1.7.0'
