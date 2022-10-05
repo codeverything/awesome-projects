@@ -1,0 +1,4 @@
+Requirements for ATM in Java:
+- Java.util Package for taking the input 
+- Basic Mathematics to perform operations
+- Switch Case statements in Java to perform operations as per user's choice
