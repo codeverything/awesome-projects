@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d4e09b"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/TextFirstNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Enter First number :"
+        android:textColor="#03045e"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/InputFirstNumber"
+        android:layout_margin="15dp"
+        app:cornerRadius="8dp"
+        android:background="#ffffff"
+        android:padding="16dp"
+        android:hint="e.g : 10 "
+        android:textSize="14sp"
+         />
+
+    <TextView
+        android:id="@+id/TextSecondNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Enter Second number :"
+        android:textColor="#03045e"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/InputSecondNumber"
+        android:background="#ffffff"
+        app:cornerRadius="8dp"
+        android:padding="16dp"
+        android:textSize="14sp"
+        android:hint="e.g : 5 "
+        android:layout_margin="15dp"
+        />
+
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3a5a40"
+        android:padding="15dp"
+        android:text="ADD"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="16sp"
+        app:cornerRadius="15dp" />
+
+    <Button
+        android:id="@+id/Subtract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3a5a40"
+        android:padding="15dp"
+        android:text="SUBTRACT"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="16sp"
+        app:cornerRadius="15dp" />
+
+    <Button
+        android:id="@+id/Multtiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3a5a40"
+        android:padding="15dp"
+        android:text="MULTIPLY"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="16sp"
+        app:cornerRadius="15dp" />
+
+    <Button
+        android:id="@+id/Divide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#3a5a40"
+        android:padding="15dp"
+        android:text="DIVIDE"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="16sp"
+        app:cornerRadius="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#d4e09b"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="ANSWER :"
+            android:textColor="#03045e"
+            android:layout_margin="15dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/Answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:layout_margin="15dp"
+            android:padding="16dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
