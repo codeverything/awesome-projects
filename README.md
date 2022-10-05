@@ -16,6 +16,8 @@
  Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. Hacktoberfest is open to everyone in our global community!
  [Official Website](https://hacktoberfest.com)
 
+# If you need any ideas?
+Have a look at [this](https://github.com/codeverything/awesome-projects/issues/41)
 ### Rules:
 * Make a Issue before making a pull request
 * If the issue get assigned then proceed to make a PRs.
