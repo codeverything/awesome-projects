@@ -1,4 +1,4 @@
-#Image Enhancer Using Python 
+# Image Enhancer Using Python 
 
 Image enhancer using Python Imaging Library (PIL). 
 The Python Imaging Library adds image processing capabilities to your Python interpreter.
