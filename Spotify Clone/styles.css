@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    list-style-type: none;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 18px;
+    font-size: 30px;
+}
+
+nav ul li span {
+    padding-left: 6px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.3rem;
+}
+
+.brand img {
+    width: 75px;
+    padding: 0 8px;
+}
+
+.container {
+    min-height: 80vh;
+    background-color: black;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 23px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 15px;
+    padding: 30px;
+    background-image: url(./musician-349790.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.songs {
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.songList h1 {
+    color: antiquewhite;
+    border-style: hidden;
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: rgb(131, 70, 0);
+}
+
+.bottom {
+    position: sticky;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    height: 124px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.songItem {
+    margin: 12px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    color: rgb(131, 70, 0);
+    font-size: 32px;
+}
+
+.songslistplay {
+    margin-right: 23px;
+}
+
+.timestamp {
+    margin-right: 14px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songItem img {
+    height: 70px;
+    margin: 0 6px;
+    border-radius: 50%;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    font-size: 30px;
+    margin-top: 18px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
