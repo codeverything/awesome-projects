@@ -1,3 +1,5 @@
+#adds functionality to game
+
 import sys
 import pygame
 from bullet import Bullet

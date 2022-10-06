@@ -1,4 +1,6 @@
-mport sys
+#main file
+
+import sys
 import pygame
 import game_funcs as gf
 from settings import Settings

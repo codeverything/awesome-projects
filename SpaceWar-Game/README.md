@@ -2,9 +2,8 @@
 An classic, 2-D, alien invasion and shooting game using Pygame library of Python.
 
 ## Game Features
-![Image](https://github.com/Ashish-Abraham/They-R-Coming/blob/main/images/1.png)
+![Image](https://github.com/Ashish-Abraham/awesome-projects/SpaceWar-Game/blob/main/images/1.png)
 * 3 lives per game
-* Scoreboard
 * Fun to play 😊
 * Interactive buttons and auto restart
 
