@@ -2,7 +2,7 @@
 An classic, 2-D, alien invasion and shooting game using Pygame library of Python.
 
 ## Game Features
-![Image](https://github.com/Ashish-Abraham/awesome-projects/SpaceWar-Game/images/1.png)
+![Image](https://github.com/Ashish-Abraham/awesome-projects/blob/main/SpaceWar-Game/images/1.png)
 * 3 lives per game
 * Fun to play 😊
 * Interactive buttons and auto restart
