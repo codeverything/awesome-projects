@@ -20,8 +20,9 @@ An classic, 2-D, alien invasion and shooting game using Pygame library of Python
 $ sudo apt-get install python-pygame
 ```
 ```sh
-$ git clone https://github.com/Ashish-Abraham/They-R-Coming
-$ cd They-R-Coming/
+$ git clone REPO_URL
+$ cd awesome-projects
+$ cd SpaceWar-Game
 $ python alien_invasion.py
 ```
 
