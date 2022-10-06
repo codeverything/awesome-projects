@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #222;
+    background-image: linear-gradient(to right, rgb(5, 26, 119) , rgb(37, 199, 236));
+    font-size: 120%;
+  }
+  
+  .card {
+    background: #92169fd0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px #000000f4;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    /* border: 22px; */
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 0.5em;
+    border-radius: 20px;
+    border: none;
+    height: 44px;
+    width: 80px;
+    outline: none;
+    background: #000000f4;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input.type-here {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #110101;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+  }
+
+  h1.temperature {
+    margin: 0;
+    margin-bottom: 0.4em;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+  
+  .weather.loading {
+    visibility: hidden;
+    max-height: 15px;
+    position: relative;
+  }
