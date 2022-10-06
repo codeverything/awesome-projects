@@ -26,5 +26,3 @@ $ cd SpaceWar-Game
 $ python alien_invasion.py
 ```
 
-## *Thanks for reading the Documentation. Open to suggestions if any.*
-
