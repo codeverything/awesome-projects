@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Joke Generator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>Random Joke Generator</h2>
+              <div id="joke"></div>
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <button class="btn btn-lg btn-primary" type="submit" onclick="getJoke()">Get New Joke</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <footer class="text-center">Jokes from <a href="https://api.chucknorris.io/jokes/random">The Internet's Chuck Norris Database</a></footer>
+   
+
+    <script src="app.js"></script>
+  </body>
+</html>
