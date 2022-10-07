@@ -75,10 +75,15 @@ document.addEventListener("DOMContentLoaded",()=>{
     function gameOver(){
         clearInterval(gametimerId)
         console.log("gameOver")
-       document.getElementById("demo").innerHTML="GAME OVER"
-       document.getElementById("score").innerHTML="Your Score<br>  : "+score
-
-        isGameOver=true;
+       document.getElementById("demo").innerHTML="GAME<br> OVER"
+       document.getElementById("score").innerHTML="Your Score<br>"+"  => "+score+"<br>"
+        var btn=document.createElement("button");
+        btn.innerHTML="START"  
+        document.getElementById("score").appendChild(btn)
+       btn.addEventListener("click",function(){
+        location.reload()
+       })
+        isGameOver=true;  
         document.removeEventListener("keyup",control)
         
     }
