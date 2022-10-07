@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Roboto", sans-serif;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #0a1931;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 15px;
+}
+
+.container .Color_Palette {
+  overflow: auto;
+  z-index: 1;
+  padding: 20px;
+  width: 1200px;
+  height: 80vh;
+  background-color: #0c2144;
+  border: 1px solid #185adb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .Color_Palette__Header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .Color_Palette__Header h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.container .Color_Palette__Content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .Color_Palette__Content ul.color_palette {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(10rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  -ms-grid-rows: (1fr 1fr)[40px];
+      grid-template-rows: repeat(40px 1fr 1fr);
+  grid-gap: 25px;
+}
+
+.container .Color_Palette__Content ul.color_palette li {
+  width: 207px;
+  height: 300px;
+  background-color: #72727246;
+  border: 1px solid #185adb;
+  color: white;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+}
+
+.container .Color_Palette__Content ul.color_palette li:not(:last-child) {
+  margin-right: 25px;
+}
+
+.container .Color_Palette__Content ul.color_palette li:hover {
+  -webkit-box-shadow: 0 15px 32px -12px #5652e2;
+          box-shadow: 0 15px 32px -12px #5652e2;
+  top: -10px;
+}
+
+.container .Color_Palette__Content ul.color_palette li input {
+  position: absolute;
+  opacity: 0;
+  left: -999999px;
+}
+
+.container .Color_Palette__Content ul.color_palette li .color {
+  width: 100%;
+  height: 240px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: var(--color);
+}
+
+.container .Color_Palette__Content ul.color_palette li .text {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.container .Color_Palette__Footer {
+  text-align: center;
+  color: white;
+}
+
+.container .Color_Palette__Footer #Generate_Platte {
+  display: block;
+  width: 393px;
+  height: 50px;
+  background-color: #7e6cca;
+  border: 1px solid #7e6cca;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  -webkit-transition: 250ms all;
+  transition: 250ms all;
+}
+
+.container .Color_Palette__Footer #Generate_Platte:hover {
+  background-color: #7d6cca91;
+}
+
+.container .Color_Palette__Footer p {
+  font-size: 16px;
+  line-height: 29px;
+}
+
+.container .btn {
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container .btn:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.container .btn-change {
+  background-color: #5652e2;
+  border: 1px solid #5752e263;
+  -webkit-transition: 250ms all;
+  transition: 250ms all;
+}
+
+.container .btn-change:hover {
+  background-color: #5752e2de;
+  border-color: #5652e2;
+}
+
+.container .btn_color_Palette {
+  background-color: #185adb;
+  border: 1px solid #1859db63;
+  -webkit-transition: 250ms all;
+  transition: 250ms all;
+}
+
+.container .btn_color_Palette:hover {
+  background-color: #1859dbc4;
+  border-color: #185adb;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  cursor: pointer;
+}
+
+/* Alert Start */
+.alert {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  z-index: 100;
+  max-width: 600px;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+}
+
+.alert.active {
+  top: 20px;
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 487px) {
+  .alert {
+    font-size: 14px;
+  }
+}
+
+.alert-warning {
+  background-color: rgba(255, 171, 0, 0.2);
+  color: #c28200;
+  border: 1px solid #eb9d00;
+}
+
+.alert-primary {
+  background-color: rgba(0, 144, 231, 0.2);
+  color: #009dff;
+  border: 1px solid #0084d5;
+}
+
+.alert-danger {
+  background-color: rgba(252, 66, 74, 0.2);
+  color: #c03238;
+  border: 1px solid #e83d44;
+}
+
+.alert-info {
+  background-color: rgba(143, 95, 232, 0.2);
+  color: #6d48b0;
+  border: 1px solid #8457d5;
+}
+
+.alert-success {
+  background-color: rgba(0, 210, 91, 0.2);
+  color: #00a045;
+  border: 1px solid #00c154;
+}
+
+.alert-light {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #c2c2c2;
+  border: 1px solid #ebebeb;
+}
+
+/* Alert End */
+/*# sourceMappingURL=style.css.map */
