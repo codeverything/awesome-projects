@@ -1,0 +1,16 @@
+gTTS==2.2.4
+onnxruntime~=1.11.1
+simpletransformers~=0.63.7
+tensorflow~=2.4.0
+opencv-python~=4.6.0.66
+numpy~=1.21.6
+onnxruntime
+SpeechRecognition
+pyaudio
+
+playsound~=1.3.0
+torch~=1.7.1+cu101
+transformers~=4.19.4
+Pillow~=9.1.1
+wget~=3.2
+scikit-image~=0.19.3
