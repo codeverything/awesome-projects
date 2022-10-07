@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(68, 44, 164) 0%, rgba(110,152,255,1) 100%);
+}
+
+
+main{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+div{
+    background: linear-gradient(0deg, rgb(68,44,164) 0%, rgba(12,0,255,1) 100%);
+    border-radius:50%;
+    position: absolute ;
+    width: 50px;
+    height: 50px;
+}
+
+#first{
+    animation: disappear 5s linear 0s infinite;
+}
+
+@keyframes disappear {
+    50%{
+        opacity: 1;
+    }
+    55%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+}
+section
+{
+    position:absolute;
+    top:0;
+    width:20vw;
+}
