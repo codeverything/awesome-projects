@@ -1,0 +1,203 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vh;
+}
+
+.navul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+nav ul li {
+    padding-right: 2vh;
+    cursor: pointer;
+}
+
+
+nav ul li:hover {
+    color:red
+}
+
+.dev h1:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.dev h1{
+    padding-left: 59px;
+    font-size: xxx-large;
+}
+
+.firstcontainer{
+    background-image: url(img/slide-1.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100% ;
+}
+
+.texth1{
+    padding-top: 40vh;
+    
+    color: white;
+    font-size: 4rem;
+}
+
+.ptext{
+    padding-left: 36vw;
+}
+
+.button{
+    
+    margin-top: 30px;
+    background-color: transparent;
+    padding: 15px;
+    border-color: aquamarine;
+    cursor: pointer;
+
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color:rgba(0,0,0,.2); 
+  
+    color: blue;
+    
+}
+
+
+.button:hover{
+    background-color: rgb(99, 99, 255);
+    
+}
+
+.aboutus{
+    padding-top: 60px;
+}
+
+.im:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.button1{
+   
+    background-color: transparent;
+    padding: 15px;
+    border-color: aquamarine;
+    cursor: pointer;
+    color: cadetblue;
+}
+
+.button1:hover{
+    background-color:aquamarine
+    
+}
+
+
+.unique{
+    background-image: url(img/nubelson-fernandes-iE71-TMrrkE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+/* .unique1{
+    min-height: 40vh;
+    background-color: white;
+    color: black;
+} */
+
+/* .item {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .item:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+input{
+    width: 300px;
+    height: 30px;
+    margin: 20px;
+}
+
+input:hover{
+    color: green;
+}
+
+#but{
+    width: 60px;
+    background-color: white;
+    margin-left: 20px;
+    color: black;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+#but:hover{
+    background-color: red;
+    color: aqua;
+    
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: blue;
+    
+}
+
+.left h1{
+    padding-bottom: 30px;
+}
+ */ 
+
+*{
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Raleway&family=Ubuntu&display=swap');
+
+.red{
+    background-color: red;
+}
+
+.border{
+    border: 2px solid black;
+}
+
+.minheight{
+    min-height: 120vh;
+}
+
+.blue {
+    color: blue;
+}
+
+.fs{
+    font-size: 1.5rem;
+}
+
+.pt{
+    padding-top: 10px;
+}
+
+.large{
+    font-size: xxx-large;
+}
+
+.white{
+    color: white;
+}
+
+.font{
+    font-family: 'Raleway', sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.fs3{
+    font-size: 3rem;
+}
+
+.pt3{
+    padding-top: 30px;
+}
+
+.pt5{
+    padding-top: 50px;
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.fs1{
+    font-size: 1rem;
+}
+
+.imgw{
+    width: 60px;
+    text-align: center;
+    background-color: white; 
+    border-radius: 50%;
+    border-color: aqua;
+    
+    height: 60px;
+}
+
+.lh{
+    line-height: 1.6;
+}
+
+.p{
+    padding: 20px;
+}
+
+.dark{
+    color: darkred;
+}
+
+.darkred{
+    color: crimson;
+}
+
+.mt{
+    margin-top: 20px;
+}
+
+.minh{
+    min-height: 80vh;
+}
+
+.gray{color: grey;}
+
+.span{
+    color: blue;
+}
+
+.pt100{
+    padding-top: 30vh;
+}
+
+.img1{
+    width: 400px;
+    height: 250px;
+}
+
+.m{
+    margin: 10px;
+}
+
+.bw{
+    justify-content: space-between;
+}
+
+.pa{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.pb{
+    padding-bottom: 100px;
+}
+
+.ba{
+    justify-content: space-around;
+}
+
+.pl{
+    padding-left: 40px;
+}
+
+.dir{
+    flex-direction: column;
+}
+
+/* @media screen and (max-width: 400px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .navul{
+        
+        text-decoration: none;
+        list-style: none;
+        visibility: hidden;
+        display: hidden;
+    
+    }
+
+    nav ul  {
+        padding-right: 20px;
+        cursor: pointer;
+        display: none;
+    }
+
+    .firstcontainer{
+        background-image: url(img/slide-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200%;
+    }
+
+    .text{
+        text-align: center;
+        margin-left: 50vw;
+    }
+
+    .about{
+        text-align: center;
+        
+    }
+
+}
+ */
