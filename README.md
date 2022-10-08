@@ -1,3 +1,7 @@
+# THIS REPOSITORY HAS BEEN EXCLUDED FROM HACKTOBERFEST 2022
+
+
+
 <h1 align="center">Awesome Projects</h2>
 
 <p align="center">
