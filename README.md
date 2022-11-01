@@ -1,4 +1,4 @@
-# THIS REPOSITORY HAS BEEN EXCLUDED FROM HACKTOBERFEST 2022
+# Awesome Projects
 
 
 
@@ -12,20 +12,20 @@
 </p>
 
 
-## Hacktoberfest 2022 🎃?
-<div align="center"><img src="/images/hacktober.png"></div>
 
 
-### About:
- Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. Hacktoberfest is open to everyone in our global community!
- [Official Website](https://hacktoberfest.com)
+
+
+
+ 
+
 
 
 ## If you need any ideas?
 Have a look at [this](https://github.com/codeverything/awesome-projects/issues/41)
 
 
-### Rules:
+### Suggestions for good contribution:
 * Make a Issue before making a pull request
 * If the issue get assigned then proceed to make a PRs.
 * The Program doesn't contain any error and should be executable
