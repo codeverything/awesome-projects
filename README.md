@@ -1,29 +1,13 @@
-# Awesome Projects
-
-
-
-<h1 align="center">Awesome Projects</h2>
-
-<p align="center">
-  <a href="https://github.com/codeverything/awesome-projects/issues"><img src="https://img.shields.io/github/issues/codeverything/awesome-projects.svg?style=for-the-badge" /></a>&nbsp;
-  <a href="https://github.com/codeverything/awesome-projects/fork"><img src="https://img.shields.io/github/forks/codeverything/awesome-projects.svg?style=for-the-badge" /></a>&nbsp;&nbsp;
-  <a href="#"><img src="https://img.shields.io/github/stars/codeverything/awesome-projects.svg?style=for-the-badge" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/codeverything/awesome-projects/blob/main/LICENSE"><img src="https://img.shields.io/github/license/codeverything/awesome-projects.svg?style=for-the-badge" /></a>&nbsp;&nbsp;
-</p>
-
-
-
-
-
-
-
+# Awesome Web Projects
  
-
-
-
-## If you need any ideas?
-Have a look at [this](https://github.com/codeverything/awesome-projects/issues/41)
-
+<p align="center">
+  <img src="https://img.shields.io/github/license/codeverything/awesome-projects?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/codeverything/awesome-projects?color=FFBB00&style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/codeverything/awesome-projects?color=4285F4&style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/codeverything/awesome-projects?color=EA4335&style=for-the-badge">
+</p>
+  
+Have a look for ideas [here](https://github.com/codeverything/awesome-projects/issues/41)
 
 ### Suggestions for good contribution:
 * Make a Issue before making a pull request
@@ -32,7 +16,6 @@ Have a look at [this](https://github.com/codeverything/awesome-projects/issues/4
 * Don't copy the code from other resources or exists already
 * Project name should start in lowercase
 * Don't make SPAM PRs to get rejected immediately.
-
 
 ## Steps to Contribute.
 - [x] Star and Fork the repository [Repo](https://github.com/codeverything/awesome-projects)
@@ -45,4 +28,4 @@ Have a look at [this](https://github.com/codeverything/awesome-projects/issues/4
 - [x] 🎉Congrats!!, You've made your contribution.
 
 ## Awesome Contributors:
-<a href="https://github.com/codeverything/awesome-projects/graphs/contributors"> <img src="https://contrib.rocks/image?repo=codeverything/awesome-projects" /> </a>
+<a href="https://github.com/codeverything/awesome-projects/graphs/contributors"><img src="https://contrib.rocks/image?repo=codeverything/awesome-projects"/></a>
