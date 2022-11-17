@@ -14,7 +14,7 @@ Have a look for ideas [here](https://github.com/codeverything/awesome-projects/i
 * If the issue get assigned then proceed to make a PRs.
 * The Program doesn't contain any error and should be executable
 * Don't copy the code from other resources or exists already
-* Project name should start in lowercase
+* Project name should start in lowercase (separated by "_")
 * Don't make SPAM PRs to get rejected immediately.
 
 ## Steps to Contribute.
