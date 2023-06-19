@@ -18,7 +18,7 @@ setInterval(() => {
 
 var zoneLocal = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
-fetch('http://api.timezonedb.com/v2.1/list-time-zone?key=YOUR-KEY&format=json')
+fetch('https://api.timezonedb.com/v2.1/list-time-zone?key=RZKO9DA136LS&format=json')
   .then(function(response) {
     return response.json();
   })
